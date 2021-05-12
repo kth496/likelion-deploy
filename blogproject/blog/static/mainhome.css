@@ -1,0 +1,48 @@
+:root {
+    --body-background-color: #ffffffc4;
+    --font-color: #000000;
+}
+
+body {
+    margin : 0 auto;
+    background-color: var(--body-background-color) ;
+}
+
+body h1 {
+    font-size: 100px;
+}
+
+a:link {text-decoration: none; color: #333333;}
+a:visited {text-decoration: none; color: #333333;}
+a:active {text-decoration: none; color: #333333;}
+a:hover {text-decoration: underline; color:aquamarine;}
+
+.cate {
+
+    font-size : 50px;
+
+
+}
+.title {
+    height: 1000px;
+    width: 300px;
+    border: 5px solid black;
+    padding-left: 20px;
+    position : fixed;
+    top : 30px;
+    left:50px;
+    background-color: whitesmoke;
+
+}
+
+.tu{
+    width:1000px;
+    padding:flex;
+
+}
+
+.flower{
+    position:absolute;
+    top : 170px;
+    left: 600px;
+}

@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<title>김혜지_자기소개</title>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+	</head>
+	<body>
+		<div class="main-container">
+			<div class = "main-wrap">
+            <section class = "self-introduction">
+				<h2 class = "title-1">안녕하세요!</h2>
+				<h2 class = title-1>20학번 김혜지입니다!</h2>
+			</section>
+			<section class = "study">
+				<h4 class = "title"><ins>[전공]</ins></h4>
+				<div class = "soft-wrap">
+					<img src = "{% static 'soft.jpg' %}">
+			    </div>
+				<p class = "text-1">저는 소프트웨어를 전공하고 있습니다.<br>현재 C, Java, Python, C++ 등 다양한 언어를 배웠는데 <br>
+				개인적으로 좋아하는 언어는 Python 입니다.<br>아직 어떤 분야를 목표로 삼을지 분명하지 않아서<br>최대한 다양한 분야를 접해보려고 노력하고 있습니다.
+			    </p>
+			</section>
+			<section class = "hobby">
+				<h4 class = "title"><ins>[취미]</ins></h4>
+				<ul class = "hobby-list">
+                    <li>DIY</li>
+                    <li>그림그리기</li>    
+					<li>산책하기</li> 
+                    <li>유튜브 보기</li> 
+                </ul>
+			</section>
+			<section class = "end">
+				<p>앞으로 잘 부탁드립니다😊</p>
+			</section>
+			</div>
+		</div>	
+	</body>
+</html>

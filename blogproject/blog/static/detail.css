@@ -1,0 +1,22 @@
+.container{
+    margin:auto;
+    padding: 100px;
+}
+
+.name{
+    font-size:70px;
+}
+
+.title{
+    font-size:60px;
+
+}
+
+.date{
+    font-size:30px;
+    float:right;
+}
+
+.what{
+    font-size:45px;
+}
