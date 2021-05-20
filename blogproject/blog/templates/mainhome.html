@@ -5,19 +5,26 @@
         <link rel="stylesheet" href="{% static 'mainhome.css' %}">
     </head>
     <body>
-        <div class = "title">
-            <h1>BLOG</h1> 
+        <div class = 'ou'>
+            <div class = "title" style = "float:left">
+                <h1>BLOG</h1> 
         
-            <div class = "cate">
-                <a href = "aboutme" class = "card-link">ABOUT_ME</a>
-            </div>
-            <br>
-            <div class = "cate">
-                <a href = "blog" class = "card-link">POST</a>
-            </div>
-        </div>    
-        <div class = "flower">
+                <div class = "cate">
+                    <a href = "aboutme" class = "card-link">ABOUT_ME</a>
+                </div>
+                <br>
+                <div class = "cate">
+                    <a href = "blog" class = "card-link">POST</a>
+                </div>
+                <br>
+                <div class = "cate">
+                    <a href = "new" class = "card-link">POST_NOW</a>
+                </div>
+
+            </div>    
+            <div class = "flower" style = "float:left">
                 <img class = "tu" src = "{% static 'flower.jpg' %}">
+            </div>
         </div>
     </body>
 </html>
